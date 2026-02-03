@@ -9,7 +9,7 @@ terraform {
 
 provider "local" {}
 
-# Cree un fichier local dans le dossier choisi
+
 resource "local_file" "demo_file" {
   filename = "${var.base_directory}/${var.filename}"
   content  = var.file_content

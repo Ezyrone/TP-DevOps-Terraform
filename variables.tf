@@ -1,7 +1,7 @@
 variable "base_directory" {
   description = "Dossier dans lequel Terraform cree le fichier"
   type        = string
-  # Par defaut, le dossier de travail local du TP
+  
   default     = "/home/jory/tp_devops/tp-terraform-local/mon_dossier"
 }
 
